@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071d14">
+<title>Regras da Comunidade | Yoshi World</title>
+<style>
+:root{--bg:#071d14;--panel:#10291e;--green:#77f28a;--mint:#c8ffd1;--line:#28563b;--text:#f2fff4;--muted:#b6d5bd}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at top,#17472b 0%,var(--bg) 55%);font-family:Arial,Helvetica,sans-serif;color:var(--text);min-height:100vh}
+header{position:sticky;top:0;z-index:2;background:#071d14ed;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+nav{max-width:1000px;margin:auto;padding:15px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-weight:900;letter-spacing:.4px;color:var(--mint);font-size:18px}
+.navtag{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:7px 10px}
+main{width:min(100% - 28px,860px);margin:0 auto;padding:36px 0 48px}
+.hero{text-align:center;padding:20px 8px 24px}
+.logo{font-size:58px;filter:drop-shadow(0 0 18px #77f28a44)}
+.eyebrow{color:var(--green);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;margin:12px 0}
+h1{font-size:clamp(30px,7vw,48px);margin:8px 0 12px;letter-spacing:-1px}
+.lead{max-width:600px;margin:0 auto;color:var(--muted);line-height:1.7;font-size:15px}
+.links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:26px 0 38px}
+.link{min-height:66px;display:flex;align-items:center;gap:12px;text-align:left;padding:15px;background:linear-gradient(135deg,#173a27,#10291e);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--text);font-weight:800;transition:transform .15s,border-color .15s}
+.link:hover{transform:translateY(-2px);border-color:var(--green)}
+.emoji{font-size:25px}.link small{display:block;color:var(--muted);font-size:12px;font-weight:500;margin-top:4px}
+.sectionhead{display:flex;align-items:center;gap:10px;margin:10px 0 16px}
+.sectionhead h2{font-size:23px;margin:0}.sectionhead span{height:1px;flex:1;background:var(--line)}
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.rule{background:#10291ecc;border:1px solid var(--line);border-radius:14px;padding:17px}
+.rule .num{color:var(--green);font-weight:900;font-size:12px;letter-spacing:1px}
+.rule h3{font-size:16px;margin:9px 0 7px}.rule p{font-size:13px;line-height:1.65;color:var(--muted);margin:0}
+.punishment{margin-top:24px;border:1px solid #3e754a;background:#153523;border-radius:14px;padding:18px;line-height:1.7;color:var(--muted);font-size:14px}
+.punishment strong{color:var(--mint)}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:24px 8px 8px}
+@media(max-width:560px){.links,.rules{grid-template-columns:1fr}.link{min-height:60px}nav{padding:13px 16px}}
+</style>
+</head>
+<body>
+<header><nav><div class="brand">🦖 YOSHI WORLD</div><div class="navtag">COMUNIDADE • REGRAS</div></nav></header>
+<main>
+<section class="hero">
+<div class="logo" aria-hidden="true">🍃🦖</div>
+<div class="eyebrow">Jogue junto • Respeite geral</div>
+<h1>Regras da Comunidade</h1>
+<p class="lead">Bem-vindo ao Yoshi World! Leia as regras, use os atalhos abaixo e ajude a manter nossa comunidade divertida, segura e de boa para todo mundo. 💚</p>
+</section>
+<section aria-label="Links da comunidade">
+<div class="sectionhead"><h2>🔗 Links importantes</h2><span></span></div>
+<div class="links">
+<a class="link" href="https://w.app/yoshi" target="_blank" rel="noopener noreferrer"><span class="emoji">📲</span><span>Ligue o servidor<small>Solicitar para ligar o servidor</small></span></a>
+<a class="link" href="https://add.aternos.org/yoshiserver" target="_blank" rel="noopener noreferrer"><span class="emoji">🎮</span><span>Servidor<small>Entrar no servidor Minecraft</small></span></a>
+<a class="link" href="https://rxly.io/minecraf" target="_blank" rel="noopener noreferrer"><span class="emoji">⛏️</span><span>APK do Minecraft<small>Abrir o link informado</small></span></a>
+<a class="link" href="https://chat.whatsapp.com/BWMzQupNtX64pWlMyF8AUR" target="_blank" rel="noopener noreferrer"><span class="emoji">💬</span><span>Comunidade<small>Entrar no grupo do WhatsApp</small></span></a>
+</div>
+</section>
+<section aria-label="Regras">
+<div class="sectionhead"><h2>📜 Regras</h2><span></span></div>
+<div class="rules">
+<article class="rule"><div class="num">REGRA 01</div><h3>🤝 Respeito sempre</h3><p>Trate todo mundo com educação. Bullying, perseguição, humilhação e discriminação não são permitidos.</p></article>
+<article class="rule"><div class="num">REGRA 02</div><h3>👨‍👩‍👧 Family Friendly</h3><p>Não envie conteúdo sexual, explícito ou impróprio para menores. Mantenha o ambiente adequado para a comunidade.</p></article>
+<article class="rule"><div class="num">REGRA 03</div><h3>🚫 Sem spam</h3><p>Não faça flood, não repita mensagens sem necessidade e evite marcar todo mundo à toa.</p></article>
+<article class="rule"><div class="num">REGRA 04</div><h3>🔗 Divulgação com permissão</h3><p>Não divulgue outros grupos, servidores ou links sem autorização da moderação.</p></article>
+<article class="rule"><div class="num">REGRA 05</div><h3>🎮 Jogue limpo</h3><p>Não use trapaças nem estrague de propósito a diversão dos outros jogadores.</p></article>
+<article class="rule"><div class="num">REGRA 06</div><h3>🔐 Privacidade</h3><p>Não publique dados pessoais seus ou de outras pessoas, nem compartilhe conversas privadas sem permissão.</p></article>
+<article class="rule"><div class="num">REGRA 07</div><h3>🛡️ Respeite a moderação</h3><p>Se a equipe pedir para parar uma discussão ou corrigir algo, colabore e converse com respeito.</p></article>
+<article class="rule"><div class="num">REGRA 08</div><h3>⚠️ Links seguros</h3><p>Não compartilhe links suspeitos ou arquivos desconhecidos. Na dúvida, pergunte à moderação.</p></article>
+</div>
+<div class="punishment"><strong>⚖️ Avisos e punições</strong><br>A moderação pode aplicar aviso, remoção de mensagens, silenciamento temporário ou expulsão, conforme a gravidade e a repetição. Casos graves podem levar à expulsão imediata. Se achar que houve engano, fale com a moderação em particular.</div>
+</section>
+<footer>Feito com 💚 para a comunidade Yoshi World.</footer>
+</main>
+</body>
+</html>
